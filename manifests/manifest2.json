@@ -1,0 +1,115 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://AlsoBenPennell.github.io/IIIFWorkshop/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Some test objects for the IIIF workshop",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/4.0/",
+  "attribution" : "Provided by Ben Pennell and UNC Chapel Hill",
+  "viewingHint" : "paged",
+  "sequences" : [ {
+    "@id" : "http://0a75c2cb-8288-4aee-8e93-d1a9a0e6c5a8",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://36884c3a-930e-47a1-9962-4cab90b7ebda",
+      "@type" : "sc:Canvas",
+      "label" : "Gothenburg, Sweden",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d5eac6fb-8ab1-4208-98f6-2f351d03f1d7",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/pxl-20240606-193903504/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/pxl-20240606-193903504",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://36884c3a-930e-47a1-9962-4cab90b7ebda"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://db77aa77-4b69-485c-876c-533a48c1a475",
+      "@type" : "sc:Canvas",
+      "label" : "Nous autres artistes",
+      "height" : 1084,
+      "width" : 813,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://44764da9-d65f-4e8a-84b7-55750828822e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://cdr.lib.unc.edu/images/2r36v8469%2Ffiles%2F99f755af-397c-4f21-8eb4-2f484e69fc2e%2Ffcr:versions%2Fversion1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://cdr.lib.unc.edu/images/2r36v8469%2Ffiles%2F99f755af-397c-4f21-8eb4-2f484e69fc2e%2Ffcr:versions%2Fversion1",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg", "png" ]
+            } ]
+          },
+          "height" : 1084,
+          "width" : 813
+        },
+        "on" : "http://db77aa77-4b69-485c-876c-533a48c1a475"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://f51e02b0-d636-41d4-a153-75766d7ed681",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 4032,
+      "width" : 3024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://5ec6d749-7e3c-4519-83ed-c7c0aa2fc14b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/pxl-20240516-031507319/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/pxl-20240516-031507319",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4032,
+          "width" : 3024
+        },
+        "on" : "http://f51e02b0-d636-41d4-a153-75766d7ed681"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://36884c3a-930e-47a1-9962-4cab90b7ebda", "http://f51e02b0-d636-41d4-a153-75766d7ed681" ]
+  } ]
+}
