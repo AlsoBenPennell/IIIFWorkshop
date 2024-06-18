@@ -1,0 +1,13 @@
+{
+  "id" : "https://AlsoBenPennell.github.io/IIIFWorkshop/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in AlsoBenPennell/IIIFWorkshop project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://AlsoBenPennell.github.io/IIIFWorkshop/manifests/manifest2.json",
+    "label" : "[Click to edit label]"
+  } ]
+}
