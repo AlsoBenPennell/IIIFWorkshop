@@ -15,5 +15,11 @@
       "en" : [ "Gilmer Maps" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://AlsoBenPennell.github.io/IIIFWorkshop/manifests/manifesthls.json",
+    "label" : {
+      "en" : [ "HLS example" ]
+    },
+    "type" : "Manifest"
   } ]
 }
