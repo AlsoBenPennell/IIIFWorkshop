@@ -1,154 +1,261 @@
 {
-  "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "id" : "https://AlsoBenPennell.github.io/IIIFWorkshop/manifests/manifestv3.json",
-  "type" : "Manifest",
-  "label" : {
-    "en" : [ "Gilmer Maps" ]
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/ea9a1a31-016f-436d-9179-9d5a365369f8",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Gilmer Maps"
+    ]
   },
-  "items" : [ {
-    "id" : "https://example.org/ea9a1a31-016f-436d-9179-9d5a365369f8/canvas/78c54674-d6d8-40b0-9074-c2b7da58065c",
-    "type" : "Canvas",
-    "height" : 3810,
-    "width" : 2652,
-    "label" : {
-      "en" : [ "Gilmer Map Redoubt" ]
-    },
-    "items" : [ {
-      "id" : "https://example.org/ea9a1a31-016f-436d-9179-9d5a365369f8/canvas/78c54674-d6d8-40b0-9074-c2b7da58065c/annotation-page/05d147c1-508d-4656-8a90-379f0e474769",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id" : "https://example.org/ea9a1a31-016f-436d-9179-9d5a365369f8/annotation/90248da8-5f67-48eb-a5d3-e1e2b2e72bc2",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "target" : "https://example.org/ea9a1a31-016f-436d-9179-9d5a365369f8/canvas/78c54674-d6d8-40b0-9074-c2b7da58065c",
-        "body" : {
-          "id" : "https://dcr.lib.unc.edu/services/api/iiif/v3/37d7b02f-9fd6-4157-9ce0-da7870f78fc2/full/max/0/default.jpg",
-          "type" : "Image",
-          "format" : "image/jpeg",
-          "height" : 3810,
-          "width" : 2652,
-          "service" : [ {
-            "@context" : "http://iiif.io/api/image/3/context.json",
-            "id" : "https://dcr.lib.unc.edu/services/api/iiif/v3/37d7b02f-9fd6-4157-9ce0-da7870f78fc2",
-            "type" : "ImageService3",
-            "protocol" : "http://iiif.io/api/image",
-            "profile" : "level2",
-            "width" : 2652,
-            "height" : 3810,
-            "maxArea" : 10000000,
-            "sizes" : [ {
-              "width" : 83,
-              "height" : 119
-            }, {
-              "width" : 166,
-              "height" : 238
-            }, {
-              "width" : 332,
-              "height" : 476
-            }, {
-              "width" : 663,
-              "height" : 953
-            }, {
-              "width" : 1326,
-              "height" : 1905
-            } ],
-            "tiles" : [ {
-              "width" : 512,
-              "height" : 512,
-              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
-            } ],
-            "extraQualities" : [ "bitonal", "color", "gray" ],
-            "extraFormats" : [ "tif", "gif" ],
-            "extraFeatures" : [ "baseUriRedirect", "canonicalLinkHeader", "cors", "jsonldMediaType", "mirroring", "profileLinkHeader", "regionByPct", "regionByPx", "regionSquare", "rotationArbitrary", "rotationBy90s", "sizeByConfinedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh" ]
-          } ]
+  "items": [
+    {
+      "id": "https://example.org/ea9a1a31-016f-436d-9179-9d5a365369f8/canvas/78c54674-d6d8-40b0-9074-c2b7da58065c",
+      "type": "Canvas",
+      "height": 3810,
+      "width": 2652,
+      "label": {
+        "en": [
+          "Gilmer Map Redoubt"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/ea9a1a31-016f-436d-9179-9d5a365369f8/canvas/78c54674-d6d8-40b0-9074-c2b7da58065c/annotation-page/05d147c1-508d-4656-8a90-379f0e474769",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/ea9a1a31-016f-436d-9179-9d5a365369f8/annotation/90248da8-5f67-48eb-a5d3-e1e2b2e72bc2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/ea9a1a31-016f-436d-9179-9d5a365369f8/canvas/78c54674-d6d8-40b0-9074-c2b7da58065c",
+              "body": {
+                "id": "https://dcr.lib.unc.edu/services/api/iiif/v3/37d7b02f-9fd6-4157-9ce0-da7870f78fc2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3810,
+                "width": 2652,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "id": "https://dcr.lib.unc.edu/services/api/iiif/v3/37d7b02f-9fd6-4157-9ce0-da7870f78fc2",
+                    "type": "ImageService3",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": "level2",
+                    "width": 2652,
+                    "height": 3810,
+                    "maxArea": 10000000,
+                    "sizes": [
+                      {
+                        "width": 83,
+                        "height": 119
+                      },
+                      {
+                        "width": 166,
+                        "height": 238
+                      },
+                      {
+                        "width": 332,
+                        "height": 476
+                      },
+                      {
+                        "width": 663,
+                        "height": 953
+                      },
+                      {
+                        "width": 1326,
+                        "height": 1905
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "extraQualities": [
+                      "bitonal",
+                      "color",
+                      "gray"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "gif"
+                    ],
+                    "extraFeatures": [
+                      "baseUriRedirect",
+                      "canonicalLinkHeader",
+                      "cors",
+                      "jsonldMediaType",
+                      "mirroring",
+                      "profileLinkHeader",
+                      "regionByPct",
+                      "regionByPx",
+                      "regionSquare",
+                      "rotationArbitrary",
+                      "rotationBy90s",
+                      "sizeByConfinedWh",
+                      "sizeByH",
+                      "sizeByPct",
+                      "sizeByW",
+                      "sizeByWh"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
         }
-      } ]
-    } ]
-  }, {
-    "id" : "https://example.org/ea9a1a31-016f-436d-9179-9d5a365369f8/canvas/5f626716-dbe9-42e1-a1c6-089915ad71db",
-    "type" : "Canvas",
-    "height" : 11055,
-    "width" : 12150,
-    "label" : {
-      "en" : [ "Gilmer Map Richmond" ]
+      ]
     },
-    "items" : [ {
-      "id" : "https://example.org/ea9a1a31-016f-436d-9179-9d5a365369f8/canvas/5f626716-dbe9-42e1-a1c6-089915ad71db/annotation-page/ed742a3c-38ab-406b-a56a-b31edcde266a",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id" : "https://example.org/ea9a1a31-016f-436d-9179-9d5a365369f8/annotation/36dba6be-32e6-4a57-86ed-6c7180d51b12",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "target" : "https://example.org/ea9a1a31-016f-436d-9179-9d5a365369f8/canvas/5f626716-dbe9-42e1-a1c6-089915ad71db",
-        "body" : {
-          "id" : "https://dcr.lib.unc.edu/services/api/iiif/v3/b81703d7-c6b1-4f4e-8d79-de6bb273340d/full/max/0/default.jpg",
-          "type" : "Image",
-          "format" : "image/jpeg",
-          "height" : 11055,
-          "width" : 12150,
-          "service" : [ {
-            "@context" : "http://iiif.io/api/image/3/context.json",
-            "id" : "https://dcr.lib.unc.edu/services/api/iiif/v3/b81703d7-c6b1-4f4e-8d79-de6bb273340d",
-            "type" : "ImageService3",
-            "protocol" : "http://iiif.io/api/image",
-            "profile" : "level2",
-            "width" : 12150,
-            "height" : 11055,
-            "maxArea" : 10000000,
-            "sizes" : [ {
-              "width" : 95,
-              "height" : 86
-            }, {
-              "width" : 190,
-              "height" : 173
-            }, {
-              "width" : 380,
-              "height" : 345
-            }, {
-              "width" : 759,
-              "height" : 691
-            }, {
-              "width" : 1519,
-              "height" : 1382
-            }, {
-              "width" : 3038,
-              "height" : 2764
-            } ],
-            "tiles" : [ {
-              "width" : 512,
-              "height" : 512,
-              "scaleFactors" : [ 1, 2, 4, 8, 16, 32, 64, 128 ]
-            } ],
-            "extraQualities" : [ "bitonal", "color", "gray" ],
-            "extraFormats" : [ "tif", "gif" ],
-            "extraFeatures" : [ "baseUriRedirect", "canonicalLinkHeader", "cors", "jsonldMediaType", "mirroring", "profileLinkHeader", "regionByPct", "regionByPx", "regionSquare", "rotationArbitrary", "rotationBy90s", "sizeByConfinedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh" ]
-          } ]
+    {
+      "id": "https://example.org/ea9a1a31-016f-436d-9179-9d5a365369f8/canvas/5f626716-dbe9-42e1-a1c6-089915ad71db",
+      "type": "Canvas",
+      "height": 11055,
+      "width": 12150,
+      "label": {
+        "en": [
+          "Gilmer Map Richmond"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/ea9a1a31-016f-436d-9179-9d5a365369f8/canvas/5f626716-dbe9-42e1-a1c6-089915ad71db/annotation-page/ed742a3c-38ab-406b-a56a-b31edcde266a",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/ea9a1a31-016f-436d-9179-9d5a365369f8/annotation/36dba6be-32e6-4a57-86ed-6c7180d51b12",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/ea9a1a31-016f-436d-9179-9d5a365369f8/canvas/5f626716-dbe9-42e1-a1c6-089915ad71db",
+              "body": {
+                "id": "https://dcr.lib.unc.edu/services/api/iiif/v3/b81703d7-c6b1-4f4e-8d79-de6bb273340d/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 11055,
+                "width": 12150,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "id": "https://dcr.lib.unc.edu/services/api/iiif/v3/b81703d7-c6b1-4f4e-8d79-de6bb273340d",
+                    "type": "ImageService3",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": "level2",
+                    "width": 12150,
+                    "height": 11055,
+                    "maxArea": 10000000,
+                    "sizes": [
+                      {
+                        "width": 95,
+                        "height": 86
+                      },
+                      {
+                        "width": 190,
+                        "height": 173
+                      },
+                      {
+                        "width": 380,
+                        "height": 345
+                      },
+                      {
+                        "width": 759,
+                        "height": 691
+                      },
+                      {
+                        "width": 1519,
+                        "height": 1382
+                      },
+                      {
+                        "width": 3038,
+                        "height": 2764
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64,
+                          128
+                        ]
+                      }
+                    ],
+                    "extraQualities": [
+                      "bitonal",
+                      "color",
+                      "gray"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "gif"
+                    ],
+                    "extraFeatures": [
+                      "baseUriRedirect",
+                      "canonicalLinkHeader",
+                      "cors",
+                      "jsonldMediaType",
+                      "mirroring",
+                      "profileLinkHeader",
+                      "regionByPct",
+                      "regionByPx",
+                      "regionSquare",
+                      "rotationArbitrary",
+                      "rotationBy90s",
+                      "sizeByConfinedWh",
+                      "sizeByH",
+                      "sizeByPct",
+                      "sizeByW",
+                      "sizeByWh"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
         }
-      } ]
-    } ]
-  }, {
-    "id" : "https://iiif.io/api/cookbook/recipe/0219-using-caption-file/canvas",
-    "type" : "Canvas",
-    "height" : 360,
-    "width" : 480,
-    "duration" : 572.034,
-    "items" : [ {
-      "id" : "https://iiif.io/api/cookbook/recipe/0219-using-caption-file/canvas/page",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id" : "https://iiif.io/api/cookbook/recipe/0219-using-caption-file/canvas/page/annotation1",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "body" : {
-          "id" : "https://dcvq6q5odoy0h.cloudfront.net/04950_VT0008_0001-playlist.m3u8",
-          "type" : "Video",
-          "height" : 360,
-          "width" : 480,
-          "duration" : 572.034,
-          "format" : "video/mp4"
-        },
-        "target" : "https://iiif.io/api/cookbook/recipe/0219-using-caption-file/canvas"
-      } ]
-    } ]
-  } ]
+      ]
+    },
+    {
+      "id": "https://iiif.io/api/cookbook/recipe/0219-using-caption-file/canvas",
+      "type": "Canvas",
+      "height": 360,
+      "width": 480,
+      "duration": 572.034,
+      "items": [
+        {
+          "id": "https://iiif.io/api/cookbook/recipe/0219-using-caption-file/canvas/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.io/api/cookbook/recipe/0219-using-caption-file/canvas/page/annotation1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dcvq6q5odoy0h.cloudfront.net/04950_VT0008_0001-playlist.m3u8",
+                "type": "Video",
+                "height": 360,
+                "width": 480,
+                "duration": 572.034,
+                "format": "application/x-mpegURL"
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0219-using-caption-file/canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
