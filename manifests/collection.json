@@ -9,5 +9,11 @@
     "@type" : "sc:Manifest",
     "@id" : "https://AlsoBenPennell.github.io/IIIFWorkshop/manifests/manifest2.json",
     "label" : "[Click to edit label]"
+  }, {
+    "id" : "https://AlsoBenPennell.github.io/IIIFWorkshop/manifests/manifestv3.json",
+    "label" : {
+      "en" : [ "Gilmer Maps" ]
+    },
+    "type" : "Manifest"
   } ]
 }
