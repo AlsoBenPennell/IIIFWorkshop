@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://AlsoBenPennell.github.io/IIIFWorkshop/annotations/5b517d87f324ff5fd8c5f7d248e52313.json" ],
+  "otherContent" : [ "https://AlsoBenPennell.github.io/IIIFWorkshop/annotations/5b517d87f324ff5fd8c5f7d248e52313.json", "https://AlsoBenPennell.github.io/IIIFWorkshop/annotations/3b9ba9b0d185dd19559482d39a09e688.json" ],
   "@id" : "https://AlsoBenPennell.github.io/IIIFWorkshop/annotations/collection.json",
   "label" : "All annotations loaded in AlsoBenPennell/IIIFWorkshop project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
