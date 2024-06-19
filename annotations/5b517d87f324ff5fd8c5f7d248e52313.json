@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Pirate Captain, with a questionable wig",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Pirate Captain, with a questionable wig</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/173202915",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-06-19T17:40:54",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1718818854593",
+    "dcterms:modified" : "2024-06-19T17:40:54",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://AlsoBenPennell.github.io/IIIFWorkshop/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1204,1142,829,812"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1204.20225,1141.91011h414.39326v0h414.39326v405.89888v405.89888h-414.39326h-414.39326v-405.89888z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_2b392c81-157b-4e0a-9bd2-6db3e56ffb51\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://f51e02b0-d636-41d4-a153-75766d7ed681"
+    } ]
+  } ],
+  "@id" : "https://AlsoBenPennell.github.io/IIIFWorkshop/annotations/5b517d87f324ff5fd8c5f7d248e52313.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
