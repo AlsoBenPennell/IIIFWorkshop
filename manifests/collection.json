@@ -21,5 +21,11 @@
       "en" : [ "HLS example" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://AlsoBenPennell.github.io/IIIFWorkshop/manifests/manifesthls2.json",
+    "label" : {
+      "en" : [ "HLS example" ]
+    },
+    "type" : "Manifest"
   } ]
 }
