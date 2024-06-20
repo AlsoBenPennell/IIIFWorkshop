@@ -3,30 +3,60 @@
   "id" : "https://AlsoBenPennell.github.io/IIIFWorkshop/manifests/manifesthls2.json",
   "type" : "Manifest",
   "label" : {
-    "en" : [ "HLS example" ]
+    "en" : [ "HLS Tests" ]
   },
   "items" : [ {
-    "id" : "https://iiif.io/api/cookbook/recipe/0219-using-caption-file/canvas",
+    "id" : "https://example.org/7f6f3e81-ab48-41e2-9c7f-ce8b72598400",
     "type" : "Canvas",
-    "height" : 360,
-    "width" : 480,
-    "duration" : 572.034,
+    "height" : 720,
+    "width" : 1280,
+    "duration" : 475,
+    "label" : {
+      "en" : [ "HLS Streaming Single TS" ]
+    },
     "items" : [ {
-      "id" : "https://iiif.io/api/cookbook/recipe/0219-using-caption-file/canvas/page",
+      "id" : "https://example.org/7f6f3e81-ab48-41e2-9c7f-ce8b72598400/page",
       "type" : "AnnotationPage",
       "items" : [ {
-        "id" : "https://iiif.io/api/cookbook/recipe/0219-using-caption-file/canvas/page/annotation1",
+        "id" : "https://example.org/7f6f3e81-ab48-41e2-9c7f-ce8b72598400/page/annotation1",
         "type" : "Annotation",
         "motivation" : "painting",
         "body" : {
-          "id" : "https://dcvq6q5odoy0h.cloudfront.net/04950_VT0008_0001-playlist.m3u8",
+          "id" : "https://dcr.lib.unc.edu/static/hls_test/hls_test_single/i5dwxnzk_dwane-powell-master2-mp4-720p-3000k-playlist.m3u8",
           "type" : "Video",
-          "height" : 360,
-          "width" : 480,
-          "duration" : 572.034,
+          "height" : 720,
+          "width" : 1280,
+          "duration" : 475,
           "format" : "application/x-mpegURL"
         },
-        "target" : "https://iiif.io/api/cookbook/recipe/0219-using-caption-file/canvas"
+        "target" : "https://example.org/7f6f3e81-ab48-41e2-9c7f-ce8b72598400"
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/6af4e80e-d9cd-4d83-bf01-1e08b8b4370a",
+    "type" : "Canvas",
+    "height" : 720,
+    "width" : 1280,
+    "duration" : 475,
+    "label" : {
+      "en" : [ "HLS Streaming Multiple TS" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/6af4e80e-d9cd-4d83-bf01-1e08b8b4370a/page",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/6af4e80e-d9cd-4d83-bf01-1e08b8b4370a/page/annotation1",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://dcr.lib.unc.edu/static/hls_test/hls_test_multi/i5dwxnzk_dwane-powell-master2-mp4-720p-3000k-playlist.m3u8",
+          "type" : "Video",
+          "height" : 720,
+          "width" : 1280,
+          "duration" : 475,
+          "format" : "application/x-mpegURL"
+        },
+        "target" : "https://example.org/6af4e80e-d9cd-4d83-bf01-1e08b8b4370a"
       } ]
     } ]
   } ]
