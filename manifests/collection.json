@@ -39,5 +39,11 @@
       "en" : [ "HLS Single Segment Test" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://AlsoBenPennell.github.io/IIIFWorkshop/manifests/manifest_non_hls.json",
+    "label" : {
+      "en" : [ "Non-HLS AV Test" ]
+    },
+    "type" : "Manifest"
   } ]
 }
