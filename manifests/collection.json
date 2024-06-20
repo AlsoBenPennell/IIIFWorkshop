@@ -33,5 +33,11 @@
       "en" : [ "HLS Multi Segment Test" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://AlsoBenPennell.github.io/IIIFWorkshop/manifests/manifest_hls_single.json",
+    "label" : {
+      "en" : [ "HLS Single Segment Test" ]
+    },
+    "type" : "Manifest"
   } ]
 }
