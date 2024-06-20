@@ -27,5 +27,11 @@
       "en" : [ "HLS example" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://AlsoBenPennell.github.io/IIIFWorkshop/manifests/manifest_hls_mult.json",
+    "label" : {
+      "en" : [ "HLS Multi Segment Test" ]
+    },
+    "type" : "Manifest"
   } ]
 }
