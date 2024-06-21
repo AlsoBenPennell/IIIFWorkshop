@@ -57,5 +57,11 @@
       "en" : [ "Mixed Audio format test" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://AlsoBenPennell.github.io/IIIFWorkshop/manifests/manifest_hls_audio.json",
+    "label" : {
+      "en" : [ "HLS Audio Test" ]
+    },
+    "type" : "Manifest"
   } ]
 }
