@@ -45,5 +45,11 @@
       "en" : [ "Non-HLS AV Test" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://AlsoBenPennell.github.io/IIIFWorkshop/manifests/manifest_mixed_formats.json",
+    "label" : {
+      "en" : [ "Non-HLS AV Test" ]
+    },
+    "type" : "Manifest"
   } ]
 }
