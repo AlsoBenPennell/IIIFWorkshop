@@ -3,7 +3,7 @@
   "id" : "https://AlsoBenPennell.github.io/IIIFWorkshop/manifests/manifest_mixed_formats.json",
   "type" : "Manifest",
   "label" : {
-    "en" : [ "Non-HLS AV Test" ]
+    "en" : [ "Mixed format test" ]
   },
   "items" : [ {
     "id" : "https://example.org/ea9a1a31-016f-436d-9179-9d5a365369f8/canvas/78c54674-d6d8-40b0-9074-c2b7da58065c",
