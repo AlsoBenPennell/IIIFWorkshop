@@ -80,7 +80,7 @@
         "motivation" : "painting",
         "target" : "/config/manifest-templates/blank.json/canvas/a9ab026f-8d4c-450b-a123-54688145bc33",
         "body" : {
-          "id" : "https://github.com/AlsoBenPennell/hls_test/raw/main/audio_mp3/blackwelder.mp3",
+          "id" : "https://raw.githubusercontent.com/AlsoBenPennell/hls_test/main/audio_mp3/blackwelder.mp3",
           "type" : "Sound",
           "format" : "audio/mp4",
           "duration" : 2490.148571
