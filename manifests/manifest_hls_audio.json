@@ -8,8 +8,6 @@
   "items" : [ {
     "id" : "https://example.org/7f6f3e81-ab48-41e2-9c7f-ce8b72598400",
     "type" : "Canvas",
-    "height" : 300,
-    "width" : 300,
     "duration" : 2490,
     "label" : {
       "en" : [ "HLS Audio TS" ]
@@ -23,9 +21,7 @@
         "motivation" : "painting",
         "body" : {
           "id" : "https://raw.githubusercontent.com/AlsoBenPennell/hls_test/main/audio_hls/blackwelder.m3u8",
-          "type" : "Audio",
-          "height" : 300,
-          "width" : 300,
+          "type" : "Sound",
           "duration" : 2490,
           "format" : "application/x-mpegURL"
         },
