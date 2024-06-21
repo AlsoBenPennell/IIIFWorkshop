@@ -1,0 +1,32 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://AlsoBenPennell.github.io/IIIFWorkshop/manifests/manifest_audio_mp3.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Mixed Audio format test" ]
+  },
+  "items" : [ {
+    "id" : "/config/manifest-templates/blank.json/canvas/a9ab026f-8d4c-450b-a123-54688145bc33",
+    "type" : "Canvas",
+    "duration" : 2490.148571,
+    "label" : {
+      "en" : [ "blackwelder" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/a9ab026f-8d4c-450b-a123-54688145bc33/annotation-page/37c185cc-db82-40d3-bd84-8315bcaa705a",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/f816430f-09d6-4a75-b39e-6d1cc641ff92",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/a9ab026f-8d4c-450b-a123-54688145bc33",
+        "body" : {
+          "id" : "https://github.com/AlsoBenPennell/hls_test/raw/main/audio_mp3/blackwelder.mp3",
+          "type" : "Sound",
+          "format" : "audio/mp4",
+          "duration" : 2490.148571
+        }
+      } ]
+    } ]
+  } ]
+}
