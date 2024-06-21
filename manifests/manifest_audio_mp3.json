@@ -3,7 +3,7 @@
   "id" : "https://AlsoBenPennell.github.io/IIIFWorkshop/manifests/manifest_audio_mp3.json",
   "type" : "Manifest",
   "label" : {
-    "en" : [ "Mixed Audio format test" ]
+    "en" : [ "Mp3 test" ]
   },
   "items" : [ {
     "id" : "/config/manifest-templates/blank.json/canvas/a9ab026f-8d4c-450b-a123-54688145bc33",
