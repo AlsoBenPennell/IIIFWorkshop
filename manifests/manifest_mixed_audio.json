@@ -65,19 +65,27 @@
       } ]
     } ]
   }, {
-    "id" : "https://example.org/7f6f3e81-ab48-41e2-9c7f-ce8b72598400/page",
-    "type" : "AnnotationPage",
+    "id" : "/config/manifest-templates/blank.json/canvas/a9ab026f-8d4c-450b-a123-54688145bc33",
+    "type" : "Canvas",
+    "duration" : 2490.148571,
+    "label" : {
+      "en" : [ "blackwelder" ]
+    },
     "items" : [ {
-      "id" : "https://example.org/7f6f3e81-ab48-41e2-9c7f-ce8b72598400/page/annotation1",
-      "type" : "Annotation",
-      "motivation" : "painting",
-      "body" : {
-        "id" : "https://github.com/AlsoBenPennell/hls_test/raw/main/audio_mp3/blackwelder.mp3",
-        "type" : "Sound",
-        "duration" : 2490,
-        "format" : "application/x-mpegURL"
-      },
-      "target" : "https://example.org/7f6f3e81-ab48-41e2-9c7f-ce8b72598400"
+      "id" : "/config/manifest-templates/blank.json/canvas/a9ab026f-8d4c-450b-a123-54688145bc33/annotation-page/37c185cc-db82-40d3-bd84-8315bcaa705a",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/f816430f-09d6-4a75-b39e-6d1cc641ff92",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/a9ab026f-8d4c-450b-a123-54688145bc33",
+        "body" : {
+          "id" : "https://github.com/AlsoBenPennell/hls_test/raw/main/audio_mp3/blackwelder.mp3",
+          "type" : "Sound",
+          "format" : "audio/mp4",
+          "duration" : 2490.148571
+        }
+      } ]
     } ]
   } ]
 }
